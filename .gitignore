@@ -1,0 +1,74 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.nyc_output/
+coverage/
+*.cache
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Tests
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+jest.config.js
+jest.setup.js
+coverage/
+
+# Miscellaneous
+*.swp
+*.bak
+*.orig
+*.orig.*
+*.rej
+
+# Prisma
+prisma/migrations/
+prisma/dev.db
+
+# Next.js (if applicable)
+.next/
+out/
+
+# Ignore yarn.lock or package-lock.json if using a specific package manager
+# Uncomment below if applicable
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
